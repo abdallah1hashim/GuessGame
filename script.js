@@ -8,6 +8,7 @@ let num = document.querySelector('.number');
 let hNum = Math.trunc(Math.random() * 20 + 1);
 
 btn.addEventListener('click', function() {
+  document.body.style.backgroundColor = "#222" ;
   let guess = Number(document.querySelector('.guess').value);
   console.log(hNum);
   console.log(guess);
