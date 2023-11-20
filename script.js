@@ -54,4 +54,5 @@ again.addEventListener("click", function(){
   score = 20;
   document.querySelector('.score').textContent = score;
   document.querySelector(".go").classList.remove("grow");
+  hNum = Math.trunc(Math.random() * 20 + 1);
 })
